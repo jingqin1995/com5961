@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <link type="text/css" rel="stylesheet" href="style.css" media="all"/>
+    <style>
+        .defaultStyle1{
+            font:italic 12pt arial;
+            text-decoration: overline;
+            background-color: #ffbbff;
+        }
+        .defaultStyle2{
+            font:normal 12pt arial;
+            text-decoration: none;
+            background-color: #bbbbbb !important;
+        }
+        .newStyle1{
+            font:italic 12pt arial;
+            text-decoration: overline;
+            background-color: #90ee90;
+        }
+        .newStyle2{
+            font:italic 12pt arial;
+            text-decoration: underline;
+            background-color: #bcd2ee !important;
+        }
+        .newStyle3{
+            font:normal 12pt arial;
+            text-decoration: blink;
+            background-color: #eeee00;
+        }
+        .newStyle4{
+        	font:normal 12pt arial;
+        	text-shadow:3px 3px 3px #FFFF00;
+        	background-color:hsla(280,60%,70%,0.3);
+        }
+    </style>
+    <!--{if 1t IE 9}>
+    <script>
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("nav");
+      document.createElement("section");
+    </script>
+    <!{end if}>-->
+    <script type="text/javascript">
+        function sidebar2_onMouseOver(){
+            var sidebar2=document.getElementById("sidebar2");
+            siderbar2.className="newStyle2";
+            siderbar2.innerHTML="<h2>Believe in yourself !</h2> <p>You are the best.</p>";
+        }
+        function sidebar2_onMouseOut(){
+            var siderbar2=document.getElementById("siderbar2");
+            siderbar2.className="defaultStyle2";
+            siderbar2.innerHTML="<h2>Be yourself</h2> <p>See what can be shown here.</p>";
+        }
+        function article1_onClick(){
+            var article1=document.getElementById("article1");
+            article1.className="newStyle1";
+        }
+        function article2_onClick(){
+            var article12=document.getElementById("article2");
+            article2.className="newStyle1";
+        }
+        function article3_onMouseDown(){
+            var article3=document.getElementById("article3");
+            article3.className="newStyle3";
+        }
+        function article4_onMouseDown(){
+            var article4=document.getElementById("article4");
+            article4.className="newStyle3";
+        }
+        function article3_onMouseUp(){
+            var article3=document.getElementById("article3");
+            article3.className="defaultStyle1";
+        }
+        function article4_onMouseUp(){
+            var article4=document.getElementById("article4");
+            article4.className="defaultStyle1";
+        }
+        function validateForm(){
+            var x=document.getElementById("entertext").value;
+            var siderbar2=document.getElementById("siderbar2");
+            if (x==null || x=="") {
+            	 alert("Your name must be filled out.");
+                 return false;
+            }
+            siderbar2.innerHTML="<h2>My name is: </h2>" + x;
+            siderbar2.className="newStyle4";
+        }
+    </script>
+  </head>
+
+  <body>
+    <header class="banner">
+      <h1>News</h1>
+      <p>Local and National News</p>
+    </header>
+    
+    <nav>
+        <ul id="navlist">
+            <li>
+                <a href="home.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">Home</a>
+            </li>
+            <li>
+                <a href="archive.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">Archive</a>
+            </li>
+            <li>
+                <a href="about.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">About</a>
+            </li>
+        </ul>
+    </nav>
+    	
+    <main>
+    	<section>
+    		<h2 id="local" onclick="article1_onClick() ; article2_onClick()">Click Here--Local News</h2>
+    		<article>
+    			<header>
+    				<h3 id="article1">Fire fighters resue man from building.</h3>
+    				<p>(author,date)</p>
+    			 </header>
+    			    <p>this is the local story text.</p>
+    		</article>
+    		
+            <article>
+    			<header>
+    				<h3 id="article2">New library to be built.</h3>
+    				<p>(author,date)</p>
+    			</header>
+    			    <p>this is the local story text.</p>
+    		</article>
+    	</section>
+    	
+        <section>
+    		<h2 onmousedown="article3_onMouseDown() ; article4_onMouseDown()" onmouseup="article3_onMouseUp() ; article4_onMouseUp()">Click Here--National News</h2>
+    		<article>
+    			<header>
+    				<h3 id="article3">Snow strom is making travel difficult.</h3>
+    				<p>(author,date)</p>
+    			 </header>
+    			    <p>this is the national story text.</p>
+    		</article>
+    		
+            <article>
+    			<header>
+    				<h3 id="article4">Thousands are without power.</h3>
+    				<p>(author,date)</p>
+    			 </header>
+    			    <p>this is the national story text.</p>
+    		</article>
+    	</section>
+    </main>
+
+    <aside id="sidebar1">
+    	<h2>Be a news reporter</h2>
+    		<p>If you see news happening, send us a text.</p>
+    </aside>
+
+    <aside  id="siderbar2">
+        <h2>Be yourself</h2>
+            <p>See what can be shown here.</p>
+    </aside>
+
+    <aside id="siderbar3">
+        Name: <input type="text" name="entertext" id="entertext"><br>
+        <input type="submit" value="submit"  onclick="validateForm()">
+    </aside>
+
+    <footer>
+        <p>Footer Infomation</p>
+    </footer>
+
+  </body>
+</html>
