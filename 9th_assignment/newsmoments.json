@@ -1,0 +1,183 @@
+{
+    "scale": "human",
+	"title": {
+		        "media": {
+		            "caption": "",
+		            "credit": "",
+		            "url": "http://3.bp.blogspot.com/-vRB0XbcpNd4/VWiRvpQwQvI/AAAAAAAABRw/LLb8jH7q6YY/s1600/usp-historic-lrg.jpg",
+		            "thumb": 	""
+		        },
+                "background": {
+                    "opacity":"50",
+                    "url": "https://static.pexels.com/photos/251603/pexels-photo-251603.jpeg"
+                },
+	            "text": {
+	                "headline": "The 6 Biggest News Moments",
+	                "text": "<p>During my undergraduate study, my major in journalism has provided me a conprehensive understanding of the history of news. Here are six biggest news monments around the world."
+	            }
+	    },
+    "events": [
+        {
+            "start_date": {
+                "year":			"1963",
+                "month":		"11",
+                "day": 			"22",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "1960s",
+            "media": {
+                "caption": "",
+                "credit": "",
+                "url": "https://www.google.com.hk/maps/place/Dealey+Plaza/@32.7828293,-96.823339,14.47z/data=!4m5!3m4!1s0x864e9915d508f639:0xcfa47bf25b709fe0!8m2!3d32.7788184!4d-96.8082993",
+                "thumb":    ""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "http://i.epochtimes.com/assets/uploads/2007/02/70221134127459.jpg"
+            },
+            "text": {
+                "headline": "John F. Kennedy Assassination",
+                "text": "John F. Kennedy, the 35th President of the United States, was assassinated on Friday, November 22, 1963 at 12:30 p.m. in Dallas, Texas while riding in a presidential motorcade in Dealey Plaza."
+            }
+        },
+        {
+            "start_date": {
+                "year":			"1969",
+                "month":		"07",
+                "day": 			"20",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "1960s",
+            "media": {
+                "caption": "The first two humans on the Moon",
+                "credit": "",
+                "url": "https://player.vimeo.com/video/46563342?",
+                "thumb": 	""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "http://img.ifeng.com/tres/finance//upload/images/2009/0724/180218/69_990257_e92875244fc1453cfc92139ceeb21781.gif"
+            },
+            "text": {
+                "headline": "Apollo 11 Moon Landing",
+                "text": "Apollo 11 was the spaceflight that landed the first two humans on the Moon. Mission commander Neil Armstrong and pilot Buzz Aldrin, both American, landed the lunar module Eagle on July 20, 1969, at 20:18 UTC."
+            }
+        },
+        {
+            "start_date": {
+                "year":			"1986",
+                "month":		"01",
+                "day": 			"28",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "1980s",
+            "media": {
+                "caption": "Details from wikipedia",
+                "credit": "",
+                "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+                "thumb": 	""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "http://cdn.abclocal.go.com/content/creativeContent/images/cms/012817-ap-challenger-cerw-image.jpg"
+            },
+            "text": {
+                "headline": "Challenger Explosion",
+                "text": "On January 28, 1986, the American shuttle orbiter Challenger broke up 73 seconds after liftoff, bringing a devastating end to the spacecraft’s 10th mission."
+            }
+        },
+        {
+            "start_date": {
+                "year":			"2001",
+                "month":		"09",
+                "day": 			"11",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "2000s",
+            "media": {
+                "caption": "911 Memorial Museum",
+                "credit": "",
+                "url": "https://www.instagram.com/p/Ba_5qJZlU-F/",
+                "thumb": 	""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "http://www.returntoorder.org/wp-content/uploads/2017/09/South_Tower_gets_hit_on_911.jpg"
+            },
+            "text": {
+                "headline": "September 11 Attack",
+                "text": ""
+            }
+        },
+        {
+            "start_date": {
+                "year":			"2013",
+                "month":		"06",
+                "day": 			"06",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "2010s",
+            "media": {
+                "caption": "",
+                "credit": "",
+                "url": "https://twitter.com/nytimes/status/776528988734885889",
+                "thumb": 	""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "https://static.pexels.com/photos/415137/pexels-photo-415137.jpeg"
+            },
+            "text": {
+                "headline": "Prism surveillance program",
+                "text": "PRISM is a code name for a program which collects internet communications from US internet companies. Its existence was leaked by NSA contractor Edward Snowden in 2013."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "05",
+                "day":          "12",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "2010s",
+            "media": {
+                "caption": "Why Was the WannaCry Attack Such a Big Deal?",
+                "credit": "",
+                "url": "https://www.youtube.com/watch?v=etPizFNPupk",
+                "thumb":    ""
+            },
+            "background": {
+                "opacity":"50",
+                "url": "http://2072192uh6pg3fr1uh25kt88.wpengine.netdna-cdn.com/wp-content/uploads/2017/06/1495024043_887_lessons-we-should-learn-from-the-wannacry-ransomware-attack.jpeg"
+            },
+            "text": {
+                "headline": "WannaCry Ransomware Attack",
+                "text": "The WannaCry ransomware attack was a May 2017 worldwide cyberattack by the WannaCry ransomware cryptoworm, which targeted computers running the Microsoft Windows operating system by encrypting data and demanding ransom payments in the Bitcoin cryptocurrency."
+            }
+        }
+    ]
+}
